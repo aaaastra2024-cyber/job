@@ -1,0 +1,4 @@
+streamlit>=1.50
+sqlalchemy>=2.0
+psycopg2-binary>=2.9  # 线上连 Supabase（PostgreSQL）用；本机 SQLite 不需要
+pandas
